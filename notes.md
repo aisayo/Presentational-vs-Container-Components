@@ -4,6 +4,8 @@
 
 - Not a requirement to follow this pattern, just a common pattern for application organization
 
+____________________________________________________________________________
+
 ## Container Components
 
 - Concerned with how things work
@@ -20,7 +22,8 @@
 - Separation of concerns => data-fetching/rendering separated
 - Allows for other render responsible components to be reusable
 - Better error catching
-- 
+
+____________________________________________________________________________
 
 ## Pure Components
 
@@ -29,6 +32,8 @@
 - Use `PureComponent` when defining component instead of `Component`
 - Pure means, when given same props/state, it should always behave the same way
 - Allows for unnecessary updates to be avoided  
+
+____________________________________________________________________________
 
 ## Presentational Components
 
@@ -40,4 +45,5 @@
 - 'Simple, lightweight components'
 - Update based on props or parent component re-renders
 - Can not alter data
-- 
+
+### Good candidates for Presentational components 
