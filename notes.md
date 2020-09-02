@@ -1,4 +1,4 @@
-# Presentational vs Container Components :art:
+# Presentational :art: vs Container Components :card_file_box:
 
 `Per Dan Abramov: "I suggest you to start building your app with just presentational components first. Eventually you’ll realize that you are passing too many props down the intermediate components. When you notice that some components don’t use the props they receive but merely forward them down and you have to rewire all those intermediate components any time the children need more data, it’s a good time to introduce some container components."`
 
