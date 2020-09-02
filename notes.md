@@ -1,8 +1,12 @@
-# Presentational :art: vs Container Components :card_file_box:
+# Presentational :art: vs Container :card_file_box: Components
+
+What even is a component?
+
+Component API: render, state, props, context, lifecycle events
 
 `Per Dan Abramov: "I suggest you to start building your app with just presentational components first. Eventually you’ll realize that you are passing too many props down the intermediate components. When you notice that some components don’t use the props they receive but merely forward them down and you have to rewire all those intermediate components any time the children need more data, it’s a good time to introduce some container components."`
 
-- Not a requirement to follow this pattern, just a common pattern for application organization
+- Component Patterns: Not a requirement to follow this pattern, just a common pattern for application organization
 
 ____________________________________________________________________________
 
@@ -15,7 +19,7 @@ ____________________________________________________________________________
 - Responsible for data-fetching and rendering its subcomponents
 - i.e. `Brews`(container) renders `BrewsList`(presentational)
 - Typically a parent component
-
+- Data or logic layer/ Utilizes Stateful API's
 
 ### Benefits of Containers?
 
@@ -46,4 +50,12 @@ ____________________________________________________________________________
 - Update based on props or parent component re-renders
 - Can not alter data
 
-### Good candidates for Presentational components 
+### Good candidates for Presentational components
+
+- Buttons
+- Text fields
+- Headers
+- Footers
+- Cards
+- Lists
+- Images
