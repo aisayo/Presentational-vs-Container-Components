@@ -4,7 +4,6 @@
 
 - Not a requirement to follow this pattern, just a common pattern for application organization
 
-
 ## Container Components
 
 - Concerned with how things work
@@ -37,7 +36,8 @@
 - Receive data via props or callbacks
 - Written as functional components
 - Only need a `return`, no `render()`
-- `props` must be passed in as an argument 
-- 'Simple, lightweight components' 
+- `props` must be passed in as an argument
+- 'Simple, lightweight components'
 - Update based on props or parent component re-renders
+- Can not alter data
 - 
