@@ -8,6 +8,7 @@ Component API: render, state, props, context, lifecycle events
 
 - Component Patterns: Not a requirement to follow this pattern, just a common pattern for application organization
 
+<https://breakingbadapi.com/documentation>
 ____________________________________________________________________________
 
 ## Container Components

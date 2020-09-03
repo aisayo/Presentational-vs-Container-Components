@@ -1,31 +1,28 @@
 import React, { Component } from 'react';
 
+import Characters from './Characters'
+
+//layout of application => container component 
+
 class App extends Component {
-
-    constructor(){
-        super()
-        this.state = {
-            name: ''
-        }
-
-    }
-
-    onClick = (event) => {
-        console.log(event)
-        console.log(event.target)
-
-        this.setState({
-            name: event
-        }, console.log(event));
-    }
 
     render() {
         return (
             <div>
-                <button onClick={this.onClick}>Click!</button>
+                <Characters />
             </div>
+            
         );
     }
 }
 
+
 export default App;
+
+
+
+// component? - building block of our application/ piece of the ui 
+
+// stateless components => functional/presentational/class components 
+
+// stateful components => deal with data 

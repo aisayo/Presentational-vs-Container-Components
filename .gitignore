@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+    fixPic = () => {
+
+        return this.state.chars.map((char) => {
+
+            if (char.name === 'Jesse Pinkman') {
+                 return {...char, img: "https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png"}
+            } else if (char.name === "Henry Schrader") {
+                return {...char, img: "https://upload.wikimedia.org/wikipedia/en/d/db/Hank_Schrader_S5B.png"}
+            } else {
+                return char
+            }
+        })
+
+
+        
+    }
